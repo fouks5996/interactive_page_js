@@ -37,7 +37,7 @@ function color_red() {
 	const editBtn = document.querySelectorAll(
 		"div > button.btn-sm.btn-outline-secondary"
 	)[0];
-	const card = document.querySelectorAll("div.card").firstElementChild;
+	const card = document.querySelectorAll("div.card")[0];
 	editBtn.addEventListener("click", function () {
 		card.style.backgroundColor = "red";
 	});
